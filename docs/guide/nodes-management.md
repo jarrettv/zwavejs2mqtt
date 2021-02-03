@@ -2,7 +2,7 @@
 
 ## Add or remove a node
 
-![Add/Remove Dialog](../_images/add_remove_dialog.png)
+![Add/Remove Dialog](../_images/add_remove_device.png)
 
 To add or remove a node using the UI, go to Control Panel and click the ADD/REMOVE DEVICE button. A dialog will appear with options for `Inclusion`, `Secure Inclusion`, and `Exclusion`. Click start and then activate the ZWave pairing (usually a button) on your device. The dialog will remain on screen during the inclusion/exclusion process with a countdown. However, the countdown may finish early upon device detection. The dialog should show the node # upon success. 
 
