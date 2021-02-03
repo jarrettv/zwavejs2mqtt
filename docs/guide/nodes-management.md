@@ -1,12 +1,12 @@
 # Nodes Management
 
-## Add a node
+## Add or remove a node
 
-To add a node using the UI, go to Control Panel and from the actions dropdown menu select `Start inclusion`, click send (:airplane:) button to enable the inclusion mode in your controller, a popup will ask you if you want to start it in `Secure mode`. In the `Controller status` text field you should see `Non-secure/Secure inclusion started` when inclusion has been successfully enabled on the controller. Wait few seconds and once the interview finish your node will be visible in the table.
+![Add/Remove Dialog](../_images/add_remove_dialog.png)
 
-## Remove a node
+To add or remove a node using the UI, go to Control Panel and click the ADD/REMOVE DEVICE button. A dialog will appear with options for `Inclusion`, `Secure Inclusion`, and `Exclusion`. Click start and then activate the ZWave pairing (usually a button) on your device. The dialog will remain on screen during the inclusion/exclusion process with a countdown. However, the countdown may finish early upon device detection. The dialog should show the node # upon success. 
 
-To remove a node using the UI, go to Control Panel and from the actions dropdown menu select `Start exclusion`, click send (:airplane:) button to enable the exclusion mode in your controller and enable the exclusion mode in your device to. `Controller status` should show `Exclusion started` when exclusion has been successfully enabled on the controller. Wait few seconds and your node will be removed from the table.
+When adding nodes, the interview process may take some time. We recommend you verify your secure devices were properly paired with security.
 
 ## Replace failed node
 
